@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.winwin</groupId>
-	<artifactId>auth-path</artifactId>
+	<artifactId>auth-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>auth-api</name>
+	<description>Authentication service for WinWin test task</description>
 	<url/>
 	<licenses>
 		<license/>

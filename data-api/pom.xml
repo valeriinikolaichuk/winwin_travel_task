@@ -11,8 +11,8 @@
 	<groupId>com.winwin</groupId>
 	<artifactId>data-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>data-api</name>
+	<description>Data transformation service for WinWin test task</description>
 	<url/>
 	<licenses>
 		<license/>
