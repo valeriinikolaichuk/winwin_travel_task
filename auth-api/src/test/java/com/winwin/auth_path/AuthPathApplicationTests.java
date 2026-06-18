@@ -1,0 +1,13 @@
+package com.winwin.auth_path;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class AuthPathApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
