@@ -11,12 +11,22 @@
 <summary>Contents</summary>
 
 - [Setup and Run Instructions](#setup-and-run-instructions)
+- [Database](#database)
 - [Swagger API Documentation](#swagger-api-documentation)
   
 </details>
 
+---
+
 ## Setup and Run Instructions
 ➡ [How to run the project](docs/setup.md)
+
+---
+
+## Database
+➡ [Database Documentation](docs/database.md)
+
+---
 
 ## Swagger API Documentation
 ➡ [Swagger API Documentation](docs/swagger.md)
