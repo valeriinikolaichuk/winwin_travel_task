@@ -32,7 +32,7 @@ git clone https://github.com/valeriinikolaichuk/winwin_travel_task.git
 
 #### Docker
 ```
-docker compose up -d
+docker compose up -d --build
 ```
 ➡ [docker-compose.yml](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/docker-compose.yml)
 
