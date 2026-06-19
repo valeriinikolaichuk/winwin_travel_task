@@ -9,7 +9,14 @@
 
 <details open="open">
 <summary>Contents</summary>
+
+- [Setup and Run Instructions](#setup-and-run-instructions)
+- [Swagger API Documentation](#swagger-api-documentation)
+  
 </details>
 
 ## Setup and Run Instructions
 ➡ [How to run the project](docs/setup.md)
+
+## Swagger API Documentation
+➡ [Swagger API Documentation](docs/swagger.md)
