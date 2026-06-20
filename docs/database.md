@@ -3,9 +3,7 @@
 
 ![ER Diagram](winwin_db.png)
 
----
-
-The application uses PostgreSQL with two main tables:  
+--- 
 
 ### users
 |Column|Type|Description|
@@ -20,6 +18,11 @@ The application uses PostgreSQL with two main tables:
 Indexes:
 - `idx_users_email` (email lookup for authentication)
 
+Entity:  
+➡ [User](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/auth-api/src/main/java/com/winwin/auth_api/user/controller/entity/User.java)
+
+---
+
 ### processing_log
 |Column|Type|Description|
 |-----|------|-------|
@@ -32,6 +35,11 @@ Indexes:
 Indexes:
 - `idx_processing_log_user_id` (fast lookup by user)
 
+Entity:  
+➡ [ProcessingLog](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/auth-api/src/main/java/com/winwin/auth_api/log/entity/ProcessingLog.java)
+
+---
+
 ### Relationships
 - A user can have many processing logs
 - Relationship is maintained via `user_id` (UUID reference, no FK constraint)
@@ -41,3 +49,8 @@ Indexes:
 - No JPA relations are used to keep services simple and decoupled
 - Indexes are added for performance on authentication and log queries
 - Schema is managed via `Flyway` migrations
+
+### Exposed on:
+
+```text
+localhost:5434
