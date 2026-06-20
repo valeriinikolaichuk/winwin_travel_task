@@ -1,6 +1,7 @@
 ### Communication Between Services
 
-`auth-api` communicates with `data-api` using Spring `RestClient`.
+`auth-api` communicates with `data-api` using 
+➡ [RestClient](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/auth-api/src/main/java/com/winwin/auth_api/client/DataApiClient.java)
 
 Request:  
 
