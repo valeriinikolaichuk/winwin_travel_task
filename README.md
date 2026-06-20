@@ -13,7 +13,13 @@
 - [Setup and Run Instructions](#setup-and-run-instructions)
 - [Database](#database)
 - [Services](#services)
+- [Request Flow](#request-flow)
+- [Security](#security)
+- [Communication Between Services](#communication-between-services)
+- [Technologies](#technologies)
 - [Swagger API Documentation](#swagger-api-documentation)
+- [Design Decisions](#design-decisions)
+- [Author](#author)
   
 </details>
 
@@ -35,5 +41,38 @@
 
 ---
 
+## Request Flow
+➡ [Request Flow](docs/request_flow.md)
+
+---
+
+## Security
+➡ [Security](docs/security.md)
+
+---
+
+## Communication Between Services
+➡ [Communication Between Services](docs/communication.md)
+
+---
+
+## Technologies
+➡ [Technologies](docs/technologies.md)
+
+---
+
 ## Swagger API Documentation
 ➡ [Swagger API Documentation](docs/swagger.md)
+
+---
+
+## Design Decisions
+➡ [Design Decisions](docs/design.md)
+
+---
+
+## Author
+
+Valerii Nikolaichuk
+
+---
