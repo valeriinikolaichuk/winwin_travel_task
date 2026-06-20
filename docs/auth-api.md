@@ -33,3 +33,9 @@ Provides communication between `auth-api` and `data-api`
 ➡ [client/](auth-api/client.md)
 
 ---
+
+#### config/
+Configuration classes  
+➡ [config/](auth-api/config.md)
+
+---
