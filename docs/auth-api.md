@@ -39,3 +39,13 @@ Configuration classes
 ➡ [config/](auth-api/config.md)
 
 ---
+
+#### user/
+➡ [user/](auth-api/user.md)
+
+---
+
+#### log/
+➡ [log/](auth-api/log.md)
+
+---
