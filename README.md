@@ -12,6 +12,7 @@
 
 - [Setup and Run Instructions](#setup-and-run-instructions)
 - [Database](#database)
+- [Services](#services)
 - [Swagger API Documentation](#swagger-api-documentation)
   
 </details>
@@ -25,6 +26,12 @@
 
 ## Database
 ➡ [Database Documentation](docs/database.md)
+
+---
+
+## Services
+➡ [auth-api](docs/auth-api.md)  
+➡ [data-api](docs/data-api.md)
 
 ---
 
