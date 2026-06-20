@@ -3,9 +3,9 @@ spring:
     name: auth-api
 
   datasource:
-    url: jdbc:postgresql://localhost:5434/winwin
-    username: postgres
-    password: postgres
+    url: ${POSTGRES_URL:jdbc:postgresql://localhost:5434/winwin}
+    username: ${POSTGRES_USER:postgres}
+    password: ${POSTGRES_PASSWORD:postgres}
 
   jpa:
     hibernate:
@@ -13,3 +13,13 @@ spring:
 
   flyway:
     enabled: true
+
+data:
+  api:
+    url: ${DATA_API_URL:http://localhost:8081}
+
+internal:
+  token: ${INTERNAL_TOKEN:my-internal-token}
+
+jwt:
+  secret: ${JWT_SECRET:winwin-travel-super-secret-jwt-key}

@@ -1,4 +1,5 @@
 version: '3.8'
+
 name: winwin-travel
 
 services:
@@ -25,8 +26,11 @@ services:
       POSTGRES_URL: jdbc:postgresql://postgres:5432/winwin
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      JWT_SECRET: my-secret-key
+
+      JWT_SECRET: winwin-travel-super-secret-jwt-key
       INTERNAL_TOKEN: my-internal-token
+
+      DATA_API_URL: http://data-api:8081
 
   data-api:
     build: ./data-api
@@ -34,4 +38,4 @@ services:
     ports:
       - "8081:8081"
     environment:
-      INTERNAL_TOKEN: ${INTERNAL_TOKEN}
+      INTERNAL_TOKEN: my-internal-token
