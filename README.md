@@ -17,6 +17,7 @@
 - [Security](#security)
 - [Communication Between Services](#communication-between-services)
 - [Technologies](#technologies)
+- [Tests](#tests)
 - [Swagger API Documentation](#swagger-api-documentation)
 - [Design Decisions](#design-decisions)
 - [Author](#author)
@@ -58,6 +59,12 @@
 
 ## Technologies
 ➡ [Technologies](docs/technologies.md)
+
+---
+
+## Tests
+➡ [auth-api tests](docs/auth_tests.md)  
+➡ [data-api tests](docs/data_tests.md)
 
 ---
 
