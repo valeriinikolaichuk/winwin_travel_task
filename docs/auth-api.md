@@ -23,3 +23,13 @@ http://localhost:8080
 | DATA_API_URL | data-api URL |
 | INTERNAL_TOKEN | Internal service token |
 
+---
+
+### Structure
+
+#### client/
+
+Provides communication between `auth-api` and `data-api`  
+➡ [client/](auth-api/client.md)
+
+---
