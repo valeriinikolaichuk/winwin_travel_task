@@ -19,10 +19,25 @@ Body:
 }
 ```
 
-```
 Response:
-
+```
 {
   "result": "HELLO"
 }
 ```
+
+```text
+Client
+  │
+  ▼
+auth-api
+  │
+  │ RestClient + X-Internal-Token
+  ▼
+data-api
+  │
+  ▼
+transform result
+  │
+  ▼
+auth-api → save ProcessingLog → return response
