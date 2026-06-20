@@ -1,4 +1,4 @@
-package com.winwin.auth_api.user.controller.entity;
+package com.winwin.auth_api.user.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
