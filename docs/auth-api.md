@@ -40,6 +40,12 @@ Configuration classes
 
 ---
 
+#### process/
+Transforms user input and logs the result  
+➡ [process/](auth-api/process.md)
+
+---
+
 #### user/
 ➡ [user/](auth-api/user.md)
 
