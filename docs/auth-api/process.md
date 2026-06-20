@@ -25,15 +25,11 @@ Exposes the protected processing endpoint.
 
 ### DTOs
 
-`ProcessRequest`  
-Represents input payload for processing:
+- `ProcessRequest`  
+Represents input payload for processing: `text` — raw input string submitted by user
 
-`text` — raw input string submitted by user
-
-`ProcessResponse`  
-Represents output payload:
-
-`result` — transformed text returned from `data-api`
+- `ProcessResponse`  
+Represents output payload: `result` — transformed text returned from `data-api`
 
 ---
 
@@ -49,15 +45,15 @@ Core business logic of the processing workflow.
 - Returns final response to controller
 
 #### Processing Flow:
-1 Validate user existence by email  
-2 Call `data-api` /transform with input text  
-3 Receive transformed result  
-4 Persist `ProcessingLog`:  
-- userId
-- inputText
-- outputText
-- createdAt
-5 Return response to client  
+- Validate user existence by email  
+- Call `data-api` /transform with input text  
+- Receive transformed result  
+- Persist `ProcessingLog`:  
+— userId  
+— inputText  
+— outputText  
+— createdAt   
+- Return response to client  
 
 ---
 
