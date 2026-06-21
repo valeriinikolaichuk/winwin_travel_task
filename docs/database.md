@@ -19,7 +19,7 @@ Indexes:
 - `idx_users_email` (email lookup for authentication)
 
 Entity:  
-➡ [User](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/auth-api/src/main/java/com/winwin/auth_api/user/controller/entity/User.java)
+➡ [User](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/auth-api/src/main/java/com/winwin/auth_api/user/entity/User.java)
 
 ---
 
