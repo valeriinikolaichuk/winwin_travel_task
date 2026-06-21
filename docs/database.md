@@ -1,5 +1,8 @@
 ### Database backup
 
+The database schema is automatically created by Flyway migrations when the application starts. 
+➡ [V1__init.sql](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/auth-api/src/main/resources/db/migration/V1__init.sql)  
+A database dump is also provided in the project root.  
 The database dump is located in the project root: ➡ [dump.sql](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/dump.sql)
 
 ---
