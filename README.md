@@ -19,6 +19,7 @@
 - [Technologies](#technologies)
 - [Testing](#testing)
 - [Swagger API Documentation](#swagger-api-documentation)
+- [API Testing via Swagger](#api-testing-via-swagger)
 - [Design Decisions](#design-decisions)
 - [Author](#author)
   
@@ -70,6 +71,11 @@
 
 ## Swagger API Documentation
 ➡ [Swagger API Documentation](docs/swagger.md)
+
+---
+
+## API Testing via Swagger
+➡ [API Testing via Swagger](docs/swagger_testing.md)
 
 ---
 
