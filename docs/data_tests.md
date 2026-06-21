@@ -27,6 +27,11 @@ To generate coverage report (if configured with `JaCoCo`):
 mvnw clean test
 ```
 
+JaCoCo reports are generated after running tests and can be found in:
+```
+target/site/jacoco/index.html
+```
+
 #### Current test coverage:
 - Instruction coverage: 89%
 - Classes Covered: 5
