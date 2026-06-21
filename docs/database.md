@@ -1,3 +1,9 @@
+### Database backup
+
+The database dump is located in the project root: ➡ [dump.sql](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/dump.sql)
+
+---
+
 ### Database Structure
 #### ER Diagram
 
