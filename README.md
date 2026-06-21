@@ -33,7 +33,7 @@
 ---
 
 ## Database
-➡ [Database Documentation](docs/database.md)
+➡ [Database](docs/database.md)
 
 ---
 
