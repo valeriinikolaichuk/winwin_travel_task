@@ -11,12 +11,12 @@ The following components are covered by automated tests:
 
 | Module | Tested functionality |
 |--------|----------------------|
-| AuthController | Register and login endpoints |
 | AuthService | User registration, login, password validation, JWT generation |
 | ProcessService | User lookup, data processing, external service call, processing log creation |
 | JwtService | Token generation, validation, and email extraction |
 | SecurityConfig | Password encoder configuration |
 | OpenApiConfig | OpenAPI and Swagger configuration |
+| JwtAuthenticationFilter | JWT token validation from Authorization header and SecurityContext authentication setup |
 
 #### Technologies:
 - JUnit 5
@@ -32,6 +32,11 @@ To generate coverage report (if configured with `JaCoCo`):
 mvnw clean test
 ```
 
+JaCoCo reports are generated after running tests and can be found in:
+```
+target/site/jacoco/index.html
+```
+
 #### Current test coverage:
-- Instruction Coverage: 80%
-- Classes Covered: 18
+- Instruction Coverage: 82%
+- Classes Covered: 19

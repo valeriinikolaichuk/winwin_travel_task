@@ -41,3 +41,12 @@ Configures Spring Security:
 - disables `CSRF` for stateless `API`
 - enables `JWT` authentication support
 
+#### JwtAuthenticationFilter
+Intercepts every incoming HTTP request and performs JWT-based authentication:
+- extracts 'Authorization' header from the request
+- validates 'JWT' token using 'JwtService'
+- extracts user identity (email) from token
+- creates 'Authentication' object
+- stores authentication in 'SecurityContext'
+- allows request to proceed to controllers
+- ensures stateless security (no session-based auth)
