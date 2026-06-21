@@ -18,7 +18,7 @@ services:
     build: ./auth-api
     container_name: auth-api
     ports:
-      - "8080:8080"
+      - "8085:8080"
     depends_on:
       - postgres
       - data-api
@@ -36,6 +36,6 @@ services:
     build: ./data-api
     container_name: data-api
     ports:
-      - "8081:8081"
+      - "8086:8081"
     environment:
       INTERNAL_TOKEN: my-internal-token

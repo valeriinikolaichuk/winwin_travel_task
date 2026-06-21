@@ -13,7 +13,7 @@ It is NOT a public API and is only accessible from `auth-api`.
 #### Runs on:
 
 ```
-http://localhost:8081
+http://localhost:8086
 ```
 
 ---
@@ -77,7 +77,7 @@ The service performs a simple transformation:
 Service runs inside docker-compose and is reachable by:
 
 ```
-http://data-api:8081/api/transform
+http://data-api:8086/api/transform
 ```
 
 from `auth-api`.

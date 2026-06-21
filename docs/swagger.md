@@ -12,12 +12,12 @@ Swagger allows you to:
 
 Auth API:
 ```
-http://localhost:8080/swagger-ui/index.html
+http://localhost:8085/swagger-ui/index.html
 ```
 
 Data API:
 ```
-http://localhost:8081/swagger-ui/index.html
+http://localhost:8086/swagger-ui/index.html
 
 ```
 
