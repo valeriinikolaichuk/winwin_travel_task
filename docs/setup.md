@@ -31,6 +31,7 @@ git clone https://github.com/valeriinikolaichuk/winwin_travel_task.git
 ```
 
 #### Docker
+The project is fully containerized and can be built and started using Docker Compose:
 ```
 docker compose up -d --build
 ```
