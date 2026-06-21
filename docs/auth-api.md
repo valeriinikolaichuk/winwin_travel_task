@@ -27,6 +27,13 @@ http://localhost:8080
 
 ### Structure
 
+#### auth/
+
+Provides user registration and authentication  
+➡ [auth/](auth-api/auth.md)
+
+---
+
 #### client/
 
 Provides communication between `auth-api` and `data-api`  
