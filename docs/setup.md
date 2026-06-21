@@ -48,7 +48,9 @@ The database runs in Docker container.
 - Password: postgres
 
 ---
-The database dump is located in the project root: ➡ [dump.sql](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/dump.sql)  
+The database schema is automatically created by Flyway migrations when the application starts. 
+➡ [V1__init.sql](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/auth-api/src/main/resources/db/migration/V1__init.sql)  
+The database dump is also located in the project root: ➡ [dump.sql](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/dump.sql)  
 To import the database backup, run:
 ```
 docker exec -i postgres psql -U postgres -d winwin < dump.sql
