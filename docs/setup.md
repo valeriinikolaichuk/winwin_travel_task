@@ -47,6 +47,12 @@ The database runs in Docker container.
 - Password: postgres
 
 ---
+The database dump is located in the project root: ➡ [dump.sql](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/dump.sql)  
+To import the database backup, run:
+```
+docker exec -i postgres psql -U postgres -d winwin < dump.sql
+```
+---
 
 #### Local run
 Windows:
@@ -63,3 +69,20 @@ Mac/Linux:
 #### Application URL
 http://localhost:8085  
 http://localhost:8086
+
+---
+
+#### Open Swagger UI
+Swagger UI is automatically available after starting the application.
+
+It provides interactive API documentation and allows testing endpoints directly from the browser.
+
+Auth API:
+```
+http://localhost:8085/swagger-ui/index.html
+```
+Data API:
+```
+http://localhost:8086/swagger-ui/index.html
+```
+➡ [API Testing via Swagger](swagger_testing.md)
