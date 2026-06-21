@@ -48,7 +48,7 @@ The database runs in Docker container.
 
 ---
 
-#### Run Backend
+#### Local run
 Windows:
 ```
 mvnw spring-boot:run
