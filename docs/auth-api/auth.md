@@ -56,7 +56,7 @@ Contains authentication business logic:
 }
 ```
 
-### Security ➡ [Security](docs/security.md)
+### Security ➡ [Security]([docs/security.md](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/docs/security.md))
 - Passwords are stored as `BCrypt` hashes.
 - `JWT` is used for authentication.
 - Sensitive data such as passwords and tokens are never logged.
