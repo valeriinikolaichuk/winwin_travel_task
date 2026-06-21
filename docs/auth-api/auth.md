@@ -7,6 +7,8 @@ The `auth` module is responsible for user registration and authentication using 
 - Authenticate existing users.
 - Validate user credentials.
 - Generate JWT access tokens.
+- Protect secured endpoints.
+- Configure Spring Security.
 - Update user login information.
 
 ### Components
@@ -56,7 +58,7 @@ Contains authentication business logic:
 }
 ```
 
-### Security ➡ [Security](docs/security.md)
+### Security ➡ [security/](https://github.com/valeriinikolaichuk/winwin_travel_task/blob/main/docs/security.md)
 - Passwords are stored as `BCrypt` hashes.
 - `JWT` is used for authentication.
 - Sensitive data such as passwords and tokens are never logged.
