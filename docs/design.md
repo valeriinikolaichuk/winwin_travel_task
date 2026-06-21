@@ -6,3 +6,12 @@
 - **Email field** is marked as 'unique' and indexed to optimize authentication and enable fast user lookup.
 - **JWT (JSON Web Token)** is used for stateless authentication without server-side sessions.
 - **Internal service-to-service communication** is secured using a shared 'internal token' passed via HTTP headers.
+
+### Exception Handling
+
+The application currently uses basic exception handling via `RuntimeException`.
+
+Examples:
+- `RuntimeException("Invalid credentials")` is thrown for authentication failures.
+
+No global exception handler (`@RestControllerAdvice`) is implemented.
