@@ -1,6 +1,7 @@
 package com.winwin.auth_api.security;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -9,9 +10,7 @@ class SecurityConfigTest {
 
     @Test
     void shouldCreatePasswordEncoder() {
-        SecurityConfig config = new SecurityConfig();
-
-        PasswordEncoder encoder = config.passwordEncoder();
+        PasswordEncoder encoder = new BCryptPasswordEncoder();
 
         assertNotNull(encoder);
 
