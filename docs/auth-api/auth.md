@@ -7,6 +7,8 @@ The `auth` module is responsible for user registration and authentication using 
 - Authenticate existing users.
 - Validate user credentials.
 - Generate JWT access tokens.
+- Protect secured endpoints.
+- Configure Spring Security.
 - Update user login information.
 
 ### Components
