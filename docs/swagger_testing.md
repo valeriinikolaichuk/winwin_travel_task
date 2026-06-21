@@ -111,15 +111,3 @@ The auth-api will:
 - Return the transformed result.
 
 ---
-
-### Demo Accounts
-
-Alternatively, create several users:
-
-| Email |	Password |
-|-------|------------|
-|user1@example.com	|password123|
-|user2@example.com	|password1234|
-|admin@example.com	|password12345|
-
-Register them once through Swagger and use them for testing.
