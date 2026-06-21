@@ -34,6 +34,11 @@ Provides user registration and authentication
 
 ---
 
+#### security
+➡ [security/](security.md)
+
+---
+
 #### client/
 
 Provides communication between `auth-api` and `data-api`  
